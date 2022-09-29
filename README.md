@@ -39,5 +39,9 @@ Is Unassigned:boolean
 ```
 ## Tech stack
 React and Node
+   
+## Submission
+* Please fork the project and upload your implementation and add sundara.amancharla@aspaara.com as contributor
+* Please also mention steps/additional details to run your implementation in readme
 
 for any additional quires on task please feel free to mail sundara.amancharla@aspaara.com
