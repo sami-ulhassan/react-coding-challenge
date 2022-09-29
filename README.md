@@ -6,7 +6,7 @@ The goal is to create a simple single-page application that allows a user to get
 insights into client and planning information.
 
 * The page shall have all the insights, data and filtering options provided.
-* The page shall manage 100k records efficently.
+* The page shall manage 10k records efficently.
 
 ## Requirements
 
