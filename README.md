@@ -37,3 +37,7 @@ Excluded Skills: list of dict and optional
 IS Core Team:boolean
 Is Unassigned:boolean
 ```
+## Tech stack
+React and Node
+
+for any additional quires on task please feel free to mail sundara.amancharla@aspaara.com
