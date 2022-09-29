@@ -3,7 +3,7 @@
 ## Goal
 To provide a Single-page application that allows user to get insights about there client and planning information.
   * The page shall have all the insights,data and filtering options provided.
-  * The page shall manage 
+  * The page shall manage 100k records efficently.
 
 ## Requirements:
   * The page shall show all the data that is provided in planning.json(=100K rows) in a table view
