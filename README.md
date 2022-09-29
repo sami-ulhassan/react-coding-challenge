@@ -2,10 +2,11 @@
 
 ## Goal
 To provide a Single-page application that allows user to get insights about there client and planning information.
-  * The page shall have all the insights,data and filtering options provided
+  * The page shall have all the insights,data and filtering options provided.
+  * The page shall manage 
 
 ## Requirements:
-  * The page shall show all the data that is provided in planning.json in a table view
+  * The page shall show all the data that is provided in planning.json(=100K rows) in a table view
   * The page shall have provision to some kpi regarding the distrbution of data
     * Distribution of operating unit
     * Distribution of grade
