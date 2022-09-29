@@ -57,6 +57,7 @@ Within the application, it should be possible to
   `sundara.amancharla@aspaara.com` as a contributor.
 * Please also update the README with any additional details or steps that are
   requried to run your implementation.
+*  We understand that there is a limited amount of time, so it does not have to be perfect or 100% finished. Plan to spend no more than 2-3 hours on it.
 
 For any additional questions on the task please feel free to email
 `sundara.amancharla@aspaara.com`.
