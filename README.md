@@ -38,7 +38,7 @@ Within the application, it should be possible to
 * Start Date: datetime (required)
 * End Date: datetime (required)
 * Client Name: string (optional)
-* Client ID: unique string and required
+* Client ID: string (required)
 * Industry: string (optional)
 * Required Skills: list of string (optional)
 * Optional Skills: list of string (optional)
