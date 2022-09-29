@@ -12,6 +12,7 @@ To provide a Single-page application that allows user to get insights about ther
     * Distribution of grade
     * Distribution of office city
     * Distribution of Labels
+    * Distribution of Industry
   * There page shall have filtering and sorting of the columns.
 
 ## Datamodel
@@ -34,6 +35,7 @@ Client ID:unique string and required
 Required Skills: list of dict and optional
 Optional Skills: list of dict and optional
 Excluded Skills: list of dict and optional
+Industry: string and optional
 IS Core Team:boolean
 Is Unassigned:boolean
 ```
