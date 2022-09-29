@@ -16,7 +16,7 @@ Within the application, it should be possible to
   (for example table view).
 * get an overview of the data with some statistics, for at least the
   following attributes:
-  * grade
+  * booking grade
   * office city
   * skills
   * industry
