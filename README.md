@@ -30,6 +30,7 @@ Within the application, it should be possible to
 * Talent Name: string (optional)
 * Talent Grade: string (optional)
 * Booking Grade: string (optional)
+* Operating Unit: string (required)
 * Office City: string (optional)
 * Office Postal Code: string (required)
 * Job Manager Name: string (optional)
@@ -40,8 +41,8 @@ Within the application, it should be possible to
 * Client Name: string (optional)
 * Client ID: string (required)
 * Industry: string (optional)
-* Required Skills: list of string (optional)
-* Optional Skills: list of string (optional)
+* Required Skills: array of key-value pair (optional)
+* Optional Skills: array of key-value pair (optional)
 * Is Unassigned: boolean
 
 ## Tech Stack
