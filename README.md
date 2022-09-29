@@ -1,49 +1,61 @@
 # React Coding Challenge
 
 ## Goal
-To provide a Single-page application that allows user to get insights about there client and planning information.
-  * The page shall have all the insights,data and filtering options provided.
-  * The page shall manage 100k records efficently.
 
-## Requirements:
-  * The page shall show all the data that is provided in planning.json(=100K rows) in a table view
-  * The page shall have provision to some kpi regarding the distrbution of data
-    * Distribution of operating unit
-    * Distribution of grade
-    * Distribution of office city
-    * Distribution of Labels
-    * Distribution of Industry
-  * There page shall have filtering and sorting of the columns.
+The goal is to create a simple single-page application that allows a user to get
+insights into client and planning information.
 
-## Datamodel
-```
-ID : unique integer and required
-Original ID : unique string and required
-Talent ID: string and optional
-Talent Name : string and optional
-Talent Grade:  string and optional
-Booking Grade: string and optional
-Office City: string and optional
-Office Postal Code:string and required
-Job Manager Name: string and optional
-Job Manager ID: string and optional
-Total Hours: integer and required
-Start Date: datetime and required
-End Date: datetime and required
-Client Name: string and optional
-Client ID:unique string and required
-Required Skills: list of dict and optional
-Optional Skills: list of dict and optional
-Excluded Skills: list of dict and optional
-Industry: string and optional
-IS Core Team:boolean
-Is Unassigned:boolean
-```
-## Tech stack
-React and Node
-   
+* The page shall have all the insights, data and filtering options provided.
+* The page shall manage 100k records efficently.
+
+## Requirements
+
+Within the application, it should be possible to
+
+* browse all the data that is provided in `planning.json` in a detailed view
+  (for example table view).
+* get an overview of the data with some statistics, for at least the
+  following attributes:
+  * grade
+  * office city
+  * skills
+  * industry
+* drill down into subsets by means of filtering and sorting.
+
+## Data Model
+
+* ID: integer (unique, required)
+* Original ID: string (unique, required)
+* Talent ID: string (optional)
+* Talent Name: string (optional)
+* Talent Grade: string (optional)
+* Booking Grade: string (optional)
+* Office City: string (optional)
+* Office Postal Code: string (required)
+* Job Manager Name: string (optional)
+* Job Manager ID: string (optional)
+* Total Hours: float (required)
+* Start Date: datetime (required)
+* End Date: datetime (required)
+* Client Name: string (optional)
+* Client ID: unique string and required
+* Industry: string (optional)
+* Required Skills: list of string (optional)
+* Optional Skills: list of string (optional)
+* Is Unassigned: boolean
+
+## Tech Stack
+
+* JavaScript or TypeScript
+* React
+* Node (if required)
+
 ## Submission
-* Please fork the project and upload your implementation and add sundara.amancharla@aspaara.com as contributor
-* Please also mention steps/additional details to run your implementation in readme
 
-for any additional quires on task please feel free to mail sundara.amancharla@aspaara.com
+* Please fork the project, commit and push your implementation and add
+  `sundara.amancharla@aspaara.com` as a contributor.
+* Please also update the README with any additional details or steps that are
+  requried to run your implementation.
+
+For any additional questions on the task please feel free to email
+`sundara.amancharla@aspaara.com`.
